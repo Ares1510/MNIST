@@ -29,7 +29,7 @@ I removed the decay and trained the exact same network as before. Each iteration
 And to my surprise Kaggle scored this submission at 99.071%! Now we're getting somewhere.
 
 4th Iteration -
-After learning about the benefits of cloud training and Paperspace, I decided feed the model more images using data augmentation.
+After learning about the benefits of cloud training and Paperspace, I decided to feed the model more images using data augmentation.
 Looking at the previous training progress, I could see that the model was learning well, but it was learning very slowly. I decided to switch to the Adam optimizer which helped speed up the training. I also increased the epochs to 30.
 Lo and behold! 99.5% on Kaggle with a rank of 391! Not bad at all.
 
